@@ -17,12 +17,12 @@ staticfiles/
 # Variables de entorno
 .env
 
-# Archivos de build
+# Build
 build/
 dist/
 *.egg-info/
 
-# Testing / cache
+# Cache / testing
 htmlcov/
 .coverage
 .pytest_cache/
