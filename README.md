@@ -49,3 +49,18 @@
 ![Lista final de peliculas en la API](./docs/images/16-api_list.png)
  
  # Evidencias de Naomi Sanchez Chavarria
+
+ ## 01.Inicialización de DJANGO
+![Inicialización de DJANGO](./docs/images/Imagen1.png)
+
+## 02.Configuración, Implementación y ejecución del código para CINESPOILERS
+![Configuración, Implementación y ejecución del código para CINESPOILERS](./docs/images/Imagen2.png)
+
+## 03.Prueba en POSTMAN NAVEGADOR
+![Prueba en POSTMAN NAVEGADOR](./docs/images/Imagen3.png)
+
+## 04.Fronend en ejecución de CINESPOILERS
+![Fronend en ejecución de CINESPOILERS](./docs/images/Imagen4.png)
+
+## 05.Registro de Película completada
+![Registro de Película completada](./docs/images/Imagen5.png)
