@@ -1,4 +1,10 @@
-# Evidencias de Sheila Diaz Rojas
+# Evidencias del Proyecto - Cinespoilers
+
+## Integrantes
+- Sheila Diaz Rojas
+- Naomi Sanchez Chavarria
+
+# Evidencias de LAB-05 Sheila Diaz Rojas
 
 ## 01. Panel de administracion de Django
 ![Panel de administracion de Django](./docs/images/01-admin.png)
@@ -12,41 +18,28 @@
 ## 04. Busqueda de peliculas en la API
 ![Busqueda de peliculas en la API](./docs/images/04-api_search.png)
 
-## 05. Lista de peliculas en la API
-![Lista de peliculas en la API](./docs/images/05-api_list.png)
+## 05. Creacion de pelicula desde la API
+![Creacion de pelicula desde la API](./docs/images/05-api_post.png)
 
-## 06. Creacion de pelicula desde la API
-![Creacion de pelicula desde la API](./docs/images/06-api_post.png)
+## 06. Eliminacion de pelicula completada
+![Eliminacion de pelicula completada](./docs/images/06-api_delet.png)
 
-## 07. Segunda evidencia de lista en la API
-![Segunda evidencia de lista en la API](./docs/images/07-api_list.png)
+## 07. Ordenamiento de peliculas
+![Ordenamiento de peliculas](./docs/images/07-api_ordering.png)
 
-## 08. Proceso de eliminacion de pelicula
-![Proceso de eliminacion de pelicula](./docs/images/08-pi_delete.png)
+## 08. Actualizacion de pelicula con PATCH
+![Actualizacion de pelicula con PATCH](./docs/images/08-api_patch.png)
 
-## 09. Eliminacion de pelicula completada
-![Eliminacion de pelicula completada](./docs/images/09-api_delet.png)
+## 09. Configuracion de permisos
+![Configuracion de permisos](./docs/images/09-api_permissions.png)
 
-## 10. Tercera evidencia de lista en la API
-![Tercera evidencia de lista en la API](./docs/images/10-api_list.png)
+# Evidencias de LAB-06 
 
-## 11. Ordenamiento de peliculas
-![Ordenamiento de peliculas](./docs/images/11-api_ordering.png)
+## 10. Lista de géneros
+![Lista de géneros](./docs/images/10-api_genres_list.png)
 
-## 12. Actualizacion de pelicula con PATCH
-![Actualizacion de pelicula con PATCH](./docs/images/12-api_patch.png)
-
-## 13. Otra evidencia de creacion con POST
-![Otra evidencia de creacion con POST](./docs/images/13-api_post.png)
-
-## 14. Respuesta exitosa de creacion con POST
-![Respuesta exitosa de creacion con POST](./docs/images/14-api_post.png)
-
-## 15. Configuracion de permisos
-![Configuracion de permisos](./docs/images/15-api_permissions.png)
-
-## 16. Lista final de peliculas en la API
-![Lista final de peliculas en la API](./docs/images/16-api_list.png)
+## 11. Películas con géneros
+![Películas con géneros](./docs/images/11-api_movies_with_genres.png)
  
  # Evidencias de Naomi Sanchez Chavarria
 
