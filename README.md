@@ -30,16 +30,13 @@
 ## 08. Actualizacion de pelicula con PATCH
 ![Actualizacion de pelicula con PATCH](./docs/images/08-api_patch.png)
 
-## 09. Configuracion de permisos
-![Configuracion de permisos](./docs/images/09-api_permissions.png)
-
 # Evidencias de LAB-06 
 
-## 10. Lista de géneros
-![Lista de géneros](./docs/images/10-api_genres_list.png)
+## 09. Lista de géneros
+![Lista de géneros](./docs/images/09-api_genres_list.png)
 
-## 11. Películas con géneros
-![Películas con géneros](./docs/images/11-api_movies_with_genres.png)
+## 10. Películas con géneros
+![Películas con géneros](./docs/images/10-api_movies_with_genres.png)
  
  # Evidencias de Naomi Sanchez Chavarria
 
