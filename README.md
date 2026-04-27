@@ -38,7 +38,7 @@
 ## 10. Películas con géneros
 ![Películas con géneros](./docs/images/10-api_movies_with_genres.png)
  
- # Evidencias de Naomi Sanchez Chavarria
+ # Evidencias de LAB-05 Naomi Sanchez Chavarria
 
  ## 01.Inicialización de DJANGO
 ![Inicialización de DJANGO](./docs/images/Imagen1.png)
@@ -54,3 +54,47 @@
 
 ## 05.Registro de Película completada
 ![Registro de Película completada](./docs/images/Imagen5.png)
+
+ # Evidencias de LAB-06 Naomi Sanchez Chavarria
+
+## 01. Panel de administracion de Django
+![Panel Principal Django](docs/images/PanelPrincipal.png)
+
+## 02. Panel de Login Django
+![Panel de Login Django](docs/images/Loginadmin.png)
+
+## 03. Panel principal de Movies
+![Panel principal de Movies](docs/images/moviesprincipal.png)
+
+## 04. Panel Completo para añadir genres y movies
+![Panel Completo para añadir genres y movies](docs/images/Movies.png)
+
+## 05. Creación de Genres
+![Creación de Genres](docs/images/+genres.png)
+
+## 06. Creacion de Movies
+![Creacion de Movies](docs/images/+movies.png)
+
+## 07. Lista de movies
+![Lista de movies](docs/images/listamovies.png)
+
+## 08. Formato Json Movies
+![Formato Json Movies](docs/images/jsonmovies.png)
+
+## 09. Datos agregados desde panel de admin
+![](docs/images/datosañadidos.png)
+
+## 10. Lista de genres
+![Lista de genres](docs/images/listagenres.png)
+
+## 11. Formato Json Genres
+![Formato Json Genres](docs/images/jasongenres.png)
+
+## 11. Delete Genres
+![Delete Genres](docs/images/deletegenres.png)
+
+## 12. Filtros por genres
+![Filtros por genres](docs/images/filtroporgeneros.png)
+
+## 13. Filtros por titulo de movies
+![Filtros por titulo de movies](docs/images/Filtrosportitulo.png)

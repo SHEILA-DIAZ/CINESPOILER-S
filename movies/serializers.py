@@ -1,5 +1,4 @@
 from rest_framework import serializers
-
 from .models import Genre, Movie
 
 
@@ -10,6 +9,8 @@ class GenreSerializer(serializers.ModelSerializer):
         fields = (
             "id",
             "name",
+            # CAMBIO: incluyo descripción
+            "description",
             "is_active",
             "created_at",
         )
@@ -17,10 +18,9 @@ class GenreSerializer(serializers.ModelSerializer):
 
 
 class MovieSerializer(serializers.ModelSerializer):
-    # NUEVO
+    # NUEVO: géneros anidados para lectura
     genres = GenreSerializer(many=True, read_only=True)
-
-    # NUEVO
+    # NUEVO: genre_ids para escritura
     genre_ids = serializers.PrimaryKeyRelatedField(
         queryset=Genre.objects.all(),
         many=True,
@@ -37,6 +37,8 @@ class MovieSerializer(serializers.ModelSerializer):
             "synopsis",
             "duration_minutes",
             "release_date",
+            # CAMBIO: incluyo poster_url
+            "poster_url",
             "is_active",
             "genres",
             "genre_ids",
@@ -46,8 +48,9 @@ class MovieSerializer(serializers.ModelSerializer):
         read_only_fields = ("id", "created_at", "updated_at")
 
     def validate_duration_minutes(self, value: int) -> int:
+        # IMPORTANTE: validación de duración positiva
         if value <= 0:
             raise serializers.ValidationError(
-                "Duration must be greater than zero."
+                "La duración debe ser mayor a cero."
             )
         return value

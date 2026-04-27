@@ -1,5 +1,6 @@
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from rest_framework.filters import SearchFilter
 
 from .models import Genre, Movie
 from .serializers import GenreSerializer, MovieSerializer
@@ -7,22 +8,19 @@ from .serializers import GenreSerializer, MovieSerializer
 
 class GenreViewSet(viewsets.ModelViewSet):
     # NUEVO
-    queryset = Genre.objects.all()
+    queryset = Genre.objects.filter(is_active=True)
     serializer_class = GenreSerializer
-    permission_classes = [IsAuthenticatedOrReadOnly]
-
-    search_fields = ("name",)
-    ordering_fields = ("id", "name", "created_at")
-    ordering = ("name",)
+    # NUEVO: búsqueda por nombre de género
+    filter_backends = [SearchFilter]
+    search_fields = ["name"]
 
 
 class MovieViewSet(viewsets.ModelViewSet):
-    queryset = Movie.objects.all()
+    queryset = Movie.objects.filter(is_active=True)
     serializer_class = MovieSerializer
-    permission_classes = [IsAuthenticatedOrReadOnly]
-
-    # CAMBIO
-    filterset_fields = ("is_active", "release_date", "genres")
-    search_fields = ("title", "synopsis", "genres__name")
-    ordering_fields = ("id", "title", "release_date", "duration_minutes", "created_at")
-    ordering = ("title",)
+    # NUEVO: filtrado y búsqueda
+    filter_backends = [DjangoFilterBackend, SearchFilter]
+    # NUEVO: filtrar por género
+    filterset_fields = ["genres"]
+    # NUEVO: buscar por título y sinopsis
+    search_fields = ["title", "synopsis"]
